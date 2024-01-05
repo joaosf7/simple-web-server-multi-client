@@ -6,9 +6,7 @@ Welcome to SimpleWebServer, a Java-based web server with multi-thread support. T
 
 - [Introduction](#introduction)
 - [Build and Run](#build-and-run)
-- [Testing](#testing)
 - [Contribution](#contribution)
-- [Thank You](#thank-you)
 
 ## Introduction
 
