@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="WebServer" default="compile" basedir="." >
+
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="resources.dir" value="resources"/>
+    <property name="main.class" value="org.academiadecodigo.network.WebServer"/>
+
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false"/>
+        <copy todir="${build.dir}">
+            <fileset dir="${resources.dir}"/>
+        </copy>
+    </target>
+
+    <target name="run" depends="compile">
+        <java classname="${main.class}" classpath="${build.dir}"/>
+    </target>
+
+</project>

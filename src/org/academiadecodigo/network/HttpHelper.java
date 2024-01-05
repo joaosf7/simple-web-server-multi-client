@@ -1,4 +1,4 @@
-package io.codeforall.network;
+package org.academiadecodigo.network;
 
 public class HttpHelper {
 

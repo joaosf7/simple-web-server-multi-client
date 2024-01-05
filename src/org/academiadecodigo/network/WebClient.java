@@ -1,4 +1,4 @@
-package io.codeforall.network;
+package org.academiadecodigo.network;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -8,7 +8,7 @@ import java.util.logging.Level;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static io.codeforall.network.WebServer.logger;
+import static org.academiadecodigo.network.WebServer.logger;
 
 public class WebClient implements Runnable {
     private Socket clientSocket;

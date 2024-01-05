@@ -1,4 +1,4 @@
-package io.codeforall.network;
+package org.academiadecodigo.network;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -16,7 +16,7 @@ public class WebServer {
 
     static final Logger logger = Logger.getLogger(WebServer.class.getName());
 
-    public static final String DOCUMENT_ROOT = "www/";
+    public static final String DOCUMENT_ROOT = "resources/www/";
     public static final int DEFAULT_PORT = 8085;
 
     private ServerSocket bindSocket = null;
