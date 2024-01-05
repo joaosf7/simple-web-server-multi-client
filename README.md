@@ -1,19 +1,72 @@
-# WebServer with multi thread support
+# WebServer with Multi-Thread Support
 
-Current server starts threads with each request<br>
-Run WebServer and test with html pages
+Welcome to SimpleWebServer, a Java-based web server with multi-thread support. This project allows for concurrent handling of client requests through a thread-per-request mechanism, enabling efficient processing and scalability.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Build and Run](#build-and-run)
+- [Testing](#testing)
+- [Contribution](#contribution)
+- [Thank You](#thank-you)
+
+## Introduction
+
+SimpleWebServer is designed to handle multiple client requests concurrently by starting a new thread for each incoming request. It provides a straightforward way to run a web server and test it with HTML pages.
 
 ## Usage
 
 1. Clone the repository:
-   git clone https://github.com/joaosf7/simple-web-server-multi-client.git
-2. Build the project:
-   mvn clean package
+
+    ```bash
+    git clone https://github.com/joaosf7/simple-web-server-multi-client.git
+    cd simple-web-server-multi-client
+    ```
+
+2. Build the project using Maven:
+
+    ```bash
+    mvn clean package
+    ```
+
 3. Run the JAR file:
-   java -jar target/simple-web-server-multi-client-1.0-SNAPSHOT.jar
+
+    ```bash
+    java -jar target/simple-web-server-multi-client-1.0-SNAPSHOT.jar
+    ```
+
+## Build and Run
+
+Follow the steps below to build and run the SimpleWebServer:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/joaosf7/simple-web-server-multi-client.git
+    cd simple-web-server-multi-client
+    ```
+
+2. Build the project using Maven:
+
+    ```bash
+    mvn clean package
+    ```
+
+3. Run the JAR file:
+
+    ```bash
+    java -jar target/simple-web-server-multi-client-1.0-SNAPSHOT.jar
+    ```
+
+4. Open your favorite web browser and navigate to `http://localhost:8080` or use the IP address where the web server is being tested.
+
+## Contribution
+
+If you'd like to contribute to this project, your contributions are welcome! Feel free to open issues, submit pull requests, or provide any suggestions.
 
 ## Thank You
 
-Thank you for checking out this project! Your feedback is highly appreciated. Feel free to open an issue, submit a pull request, or provide any suggestions.
+Thank you for checking out this project! Your feedback is highly appreciated. 
 
 Happy coding!
