@@ -23,19 +23,13 @@ Follow the steps below to build and run the SimpleWebServer:
     cd simple-web-server-multi-client
     ```
 
-2. Build the project using Maven:
+2. Build and run the project using Ant:
 
     ```bash
-    mvn clean package
+    ant run
     ```
 
-3. Run the JAR file:
-
-    ```bash
-    java -jar target/simple-web-server-multi-client-1.0-SNAPSHOT.jar
-    ```
-
-4. Open your favorite web browser and navigate to `http://localhost:8085` or use the IP address where the web server is being tested.
+3. Open your favorite web browser and navigate to `http://localhost:8085` or use the IP address where the web server is being tested.
 
 ## Contribution
 
