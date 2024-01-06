@@ -2,6 +2,8 @@
 
 Welcome to SimpleWebServer, a Java-based web server with multi-thread support. This project allows for concurrent handling of client requests through a thread-per-request mechanism, enabling efficient processing and scalability.
 
+![server Image](screenshots/server.png)
+![browser Image](screenshots/browser.png)
 ## Table of Contents
 
 - [Introduction](#introduction)
